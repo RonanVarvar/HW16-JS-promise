@@ -1,0 +1,40 @@
+.loadWrapper {
+    overflow: hidden;
+    height: 10px;
+    margin: 10px;
+    background: #ccc;
+    border-radius: 5px;
+}
+.loadLine {
+    background: #00c;
+    border-radius:  3px;
+    margin: 1px;
+    height: 8px;
+    -moz-animation:fullexpand 5s ease-out;
+    -webkit-animation:fullexpand 5s ease-out;
+}
+@-moz-keyframes fullexpand {
+    0%  { width:100%;}
+    100%{ width:1px;}
+}
+@-webkit-keyframes fullexpand {
+    0%  { width:100%;}
+    100%{ width:1px;}
+}
+article {
+    overflow: hidden;
+    border: 1px solid #00c;
+    border-radius:  10px;
+}
+
+article p {
+    font-size: 1.2rem;
+    padding: 8px 16px;
+    text-align: justify;
+}
+article img {
+    margin: 5px 10px 5px 5px;
+    padding: 3px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
