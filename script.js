@@ -16,12 +16,13 @@ function startHide() {
         .then(thirdHide)
         .fail(failHandler);
 }
+
 var failHandler = function() {
-    console.log('Error!')
+    console.log('Error!');
 };
 
 var firstHide = function() {
-   return $('article img').hide(3000);
+    return $('article img').hide(3000);
 };
 
 var secondHide = function() {
